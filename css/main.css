@@ -1,3 +1,238 @@
-/*
- * Estilos de tu proyecto
- */
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+ body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 0;
+  line-height: 1,71429;
+  height: 100%;
+  font-family: "Montserrat","Lato"=>;
+}
+img{
+  vertical-align: middle;
+}
+  .mr-40{
+    vertical-align: middle;
+  }
+
+.mr-40 {
+  margin-right: 20px;
+}
+
+.header {
+  display: inline-flex;
+  background-color: #203e50;
+  height: 90px;
+  width: 100%;
+  align-items: center;
+  color: white;
+  font-weight: 600px;
+  padding-left: 160px;
+  padding-right: 140px;
+}
+
+
+.banner {
+  display: flex;
+  background-color:#18bc9c;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../assets/images/profile.png");
+  background-position: 520px 100px;
+  background-repeat: no-repeat;
+  height: 505px;
+  width: auto;
+
+}
+.img{
+  margin-top: auto;
+}
+.banner-h1 {
+  margin-bottom: :0;
+  font-size: 20px;
+  color: white;
+}
+
+.banner-h2 {
+  margin-top: 280px;
+  font-size: 30px;
+  margin-bottom: 200px;
+  color: white;
+
+}
+
+.banner-text {
+  margin-top: 0px;
+  font-size: 0px;
+  font-weight: 0;
+}
+
+.green-button {
+  background-color: 0;
+  margin-top: 0px;
+  display: inline-block;
+  font-size: 0;
+  color: 0;
+  padding: 0px 0px;
+}
+.container portfolio{
+  display: flex;
+  background-color: white;
+  font-size: 200px;
+  font-wight: 400px;
+  width:0;
+  left: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  justify-content:space-between;
+  position: absolute;
+}
+
+.portfolio-title{
+margin-top: 200px;
+margin-left: 200px;
+margin-right:200px;
+font-size: 40px;
+font-family: Lato;
+color: black
+}
+.portfolio img {
+  display: inline-block;
+  margin-top:40px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+
+}
+
+.About{
+  background: #18bc9c;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  margin-top: 50px;
+}
+.h2-title{
+  margin-top: 65px;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+ .icons{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 80px;
+}
+ .h4-text1{
+   display: block;
+
+ }
+
+
+}
+
+.services-image-title {
+  font-size: 12px;
+  margin-top: 23px;
+  margin-bottom: 0px;
+}
+
+.services-image-subtitle {
+  margin: 0px;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.work-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 850px;
+  margin: 70px auto;
+}
+
+.work-images img {
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: #373B47;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 8px 0px;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
